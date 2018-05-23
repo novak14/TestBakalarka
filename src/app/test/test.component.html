@@ -1,0 +1,5 @@
+<button (click)="getValues()">Test</button>
+<div *ngFor="let item of model">
+  {{ item.jmeno }}, {{ item.cislo }}
+</div>
+<p *ngIf="model != null">ahoj cau {{ model.cislo }}, {{ model.jmeno}}</p>
