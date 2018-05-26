@@ -1,5 +1,26 @@
-<button (click)="getValues()">Test</button>
+<p *ngIf="!myVar">Klikni aby si zjistil co jsi
+<button (click)="getValues()">Jsem?</button></p>
+
+<h1 *ngIf="model != null">{{ cislo }} </h1>
+
+
 <div *ngFor="let item of model">
   {{ item.jmeno }}, {{ item.cislo }}
 </div>
-<p *ngIf="model != null">ahoj cau {{ model.cislo }}, {{ model.jmeno}}</p>
+
+<table class="specificSectionMethod">
+  <thead>
+  <tr>
+    <th>Jmeno</th>
+    <th>Vek</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of model">
+    <td>{{ item.jmeno}}</td>
+    <td>{{ item.cislo}}</td>
+  </tr>
+
+  </tbody>
+</table>
+

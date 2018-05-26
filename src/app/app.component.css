@@ -1,0 +1,33 @@
+.specificSection {
+  background-color: #ababf9; overflow: hidden;
+  padding: 6%;
+  width: 100%;
+  height: 33.33%;
+}
+
+#main {
+  padding: 13%;
+}
+
+.mainTitle {
+  font-size: 4.2em;
+  text-align: center;
+}
+
+.specificSectionMethod {
+  background-color: white;
+  overflow: hidden;
+  padding: 6%;
+  width: 100%;
+  height: 33.33%;
+}
+
+.nameSection {
+  font-size: 2.35em;
+}
+
+.changeText {
+  font-size: 1.5em;
+}
+
+
